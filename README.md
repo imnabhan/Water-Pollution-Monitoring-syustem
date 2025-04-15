@@ -51,6 +51,15 @@ The system works by:
     * Configure at least three fields in your channel to store temperature, turbidity, and pH values.
     * Note down your channel's Write API Key, which you will need to put in the ESP8266 code.
 
+## ThingSpeak Channel Visualization
+
+The sensor data collected by this system is sent to a ThingSpeak channel, where it can be visualized in real-time. The following screenshot shows an example of the data being displayed on ThingSpeak:
+
+![ThingSpeak Data Visualization](thingspeak.png)
+
+
+This screenshot illustrates how the temperature, pH, and turbidity readings are plotted over time, providing a visual representation of the water quality parameters being monitored.
+
 ## Important Notes
 
 * **pH Calibration:** The pH reading in the Arduino code (`sensor_value = (ph_value) / 25.0;`) is a simplified conversion and likely requires proper calibration with pH buffer solutions to obtain accurate pH values. Refer to the datasheet and calibration instructions for your specific pH sensor.
