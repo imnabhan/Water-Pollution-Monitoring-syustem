@@ -42,7 +42,7 @@ The system works by:
 3.  **ESP8266 IDE Setup:**
     * Install the ESP8266 board support in the Arduino IDE (if not already installed).
     * Install the `ESP8266WiFi` library through the Arduino Library Manager.
-    * **Configure Wi-Fi Credentials:** Open the `esp8266_code.cpp` (rename your ESP8266 file accordingly) and replace `"Nura"` with your Wi-Fi SSID and `"Nura7777"` with your Wi-Fi password.
+    * **Configure Wi-Fi Credentials:** Open the `esp8266_code.cpp` (rename your ESP8266 file accordingly) with your Wi-Fi SSID and  with your Wi-Fi password.
     * **Configure ThingSpeak API Key:** Replace `"8JMODAEBK4JA8L4A"` with your ThingSpeak Write API Key.
     * Upload the `esp8266_code.cpp` to the ESP8266.
 4.  **ThingSpeak Setup:**
